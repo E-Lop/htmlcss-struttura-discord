@@ -87,3 +87,44 @@ li {
   height: 450px;
   background-color: #a45aa4;
 }
+
+/* MAIN */
+
+.grey {
+  background-color: #d3d3d3;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* TEST */
+  height: 600px;
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.blue {
+  background-color: #1e90ff;
+  width: 66%;
+
+  /* test */
+  height: 400px;
+}
+.pink {
+  background-color: #ffc0cb;
+  width: 34%;
+
+  /* test */
+  height: 400px;
+}

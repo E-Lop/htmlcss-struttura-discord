@@ -13,6 +13,11 @@
   margin: auto;
 }
 
+.celeste {
+  background-color: #add8e6;
+  height: 4px;
+}
+
 /* Header */
 .header-top {
   background-color: #add8e6;
@@ -66,9 +71,6 @@ li {
   width: 25%;
   border: 1px dotted black;
   text-align: right;
-
-  /* test */
-  background-color: cadetblue;
 }
 
 /* spazio per jumbotron */
@@ -115,10 +117,12 @@ section {
   width: 100%;
 }
 
+/* box grande dentro section */
 .big {
   width: 66%;
 }
 
+/* box piccolo dentro section */
 .little {
   width: 34%;
 }
@@ -143,6 +147,13 @@ section {
   /* test */
   height: 500px;
 }
+
+/* modifica all'altezza generale di section */
+.tall {
+  height: 800px;
+}
+
+/* FOOTER */
 
 .dark {
   background-color: #23272a;
@@ -170,4 +181,31 @@ section {
 .sitemap {
   width: calc(100% / 4);
   border: 1px dotted white;
+}
+
+.bottom-box {
+  background-color: #58b092;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* test */
+  height: 75px;
+}
+
+/* modifica all'altezza generale di section */
+.tiny {
+  height: 100px;
+}
+
+.logo-img {
+  background-color: pink;
+  padding: 10px;
+  border: 1px dotted black;
+}
+
+.app-button {
+  background-color: pink;
+  padding: 10px;
+  border: 1px dotted black;
 }

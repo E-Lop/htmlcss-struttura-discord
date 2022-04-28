@@ -86,6 +86,7 @@ li {
   width: 45%;
   height: 450px;
   background-color: #a45aa4;
+  border: 1px dotted black;
 }
 
 /* MAIN */
@@ -123,19 +124,50 @@ section {
 }
 .blue {
   background-color: #1e90ff;
+  border: 1px dotted black;
 
   /* test */
   height: 400px;
 }
 .pink {
   background-color: #ffc0cb;
+  border: 1px dotted black;
 
   /* test */
   height: 400px;
 }
 .green {
   background-color: #228b22;
+  border: 1px dotted black;
 
   /* test */
   height: 500px;
+}
+
+.dark {
+  background-color: #23272a;
+}
+
+.salmon {
+  background-color: #f08080;
+  width: 30%;
+  border: 1px dotted black;
+
+  /* test */
+  height: 400px;
+}
+
+.teal {
+  background-color: #20b2aa;
+  width: 70%;
+  border: 1px dotted black;
+  display: flex;
+
+  /* test */
+  height: 400px;
+}
+
+.sitemap {
+  width: calc(100% / 4);
+  border: 1px dotted white;
 }

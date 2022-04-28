@@ -65,6 +65,7 @@ li {
 /* rimozione sottolineatura link di navigazione */
 .nav ul li a {
   text-decoration: none;
+  color: inherit;
 }
 
 .login {
@@ -87,7 +88,7 @@ li {
 .adv {
   width: 45%;
   height: 450px;
-  background-color: #a45aa4;
+  background-color: #ee82ee;
   border: 1px dotted black;
 }
 

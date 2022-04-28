@@ -14,13 +14,12 @@
 }
 
 /* Header */
-header {
+.header-top {
   background-color: #add8e6;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* test */
+  /* TEST */
   height: 100px;
 }
 
@@ -70,4 +69,21 @@ li {
 
   /* test */
   background-color: cadetblue;
+}
+
+/* spazio per jumbotron */
+.jumbotron {
+  display: flex;
+  background-color: #00008b;
+  justify-content: center;
+  align-items: center;
+  /* test */
+  height: 500px;
+}
+
+/* box per claim */
+.adv {
+  width: 45%;
+  height: 450px;
+  background-color: #a45aa4;
 }

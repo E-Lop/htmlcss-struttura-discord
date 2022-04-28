@@ -3,4 +3,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* COMMON */
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #add8e6;
+
+  /* test */
+  height: 100px;
+}
+
+/* contenitore elementi header */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container div {
+  background-color: #daa520;
 }

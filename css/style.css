@@ -114,17 +114,28 @@ section {
   width: 100%;
 }
 
+.big {
+  width: 66%;
+}
+
+.little {
+  width: 34%;
+}
 .blue {
   background-color: #1e90ff;
-  width: 66%;
 
   /* test */
   height: 400px;
 }
 .pink {
   background-color: #ffc0cb;
-  width: 34%;
 
   /* test */
   height: 400px;
+}
+.green {
+  background-color: #228b22;
+
+  /* test */
+  height: 500px;
 }
